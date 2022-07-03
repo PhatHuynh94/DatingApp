@@ -28,7 +28,6 @@ namespace API.Controllers
                 return BadRequest("Username is taken");
             }
 
-
             using var hmac = new HMACSHA512();
 
             var newUser = new AppUser
