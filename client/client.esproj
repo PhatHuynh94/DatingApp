@@ -7,6 +7,8 @@
     <JavaScriptTestFramework>Jasmine</JavaScriptTestFramework>
   </PropertyGroup>
   <ItemGroup>
+    <Folder Include="src\app\errors\" />
+    <Folder Include="src\app\_interceptors\" />
     <Folder Include="src\app\_guards\" />
     <Folder Include="src\app\_services\" />
     <Folder Include="ssl\" />
